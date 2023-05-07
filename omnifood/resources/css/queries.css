@@ -1,0 +1,193 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+@media only screen and (max-width: 1200px) {
+
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+
+    .row {
+        padding: 0 2%;
+    }
+}
+
+
+/*Small tablet to big tablet (rotation)*/
+@media only screen and (max-width: 1023px) {
+    body {
+        font-size: 18px;
+    }
+
+    section {
+        padding: 60px 0;
+    }
+
+    .long-copy {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .steps-box {
+        margin-top: 10px;
+    }
+
+    .steps-box:last-child {
+        margin-top: 10px;
+    }
+
+    .works-steps {
+        margin-bottom: 40px;
+    }
+
+    .works-step:last-of-type {
+        margin-bottom: 60px;
+    }
+
+    .app-screen {
+        width: 50%;
+    }
+
+    .icon-small {
+        width: 17px;
+        margin-right: 5px;
+    }
+
+    .city-feature {
+        font-size: 90%;
+    }
+
+    .plan-box {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .plan-price {
+        font-size: 250%;
+    }
+
+    .contact-form {
+        width: 80%;
+    }
+
+}
+
+/*Small phones to small tablets */
+@media only screen and (max-width: 767px) {
+    body {
+        font-size: 16px
+    }
+
+    section {
+        padding: 30px 0;
+    }
+
+    .row,
+    .hero-text-box {
+        padding: 0 4%;
+    }
+
+    .col {
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+
+    .box {
+        text-align: center;
+    }
+
+    h3,
+    .box .city-feature {
+        text-align: left;
+    }
+
+    .app-screen {
+        width: 40%;
+    }
+
+    .main-nav {
+        display: none;
+    }
+
+    h1 {
+        font-size: 180%;
+    }
+
+    h2 {
+        font-size: 150%;
+    }
+
+    .works-step {
+        margin-bottom: 20px;
+    }
+
+    .works-step:last-of-type {
+        margin-bottom: 20px;
+    }
+
+    .works-step div {
+        color: #e67e22;
+        border: 2px solid #e67e22;
+        display: inline-block;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        padding: 2px;
+        float: left;
+        font-size: 150%;
+        margin-right: 15px;
+    }
+
+    .steps-box:first-child {
+        text-align: center;
+    }
+
+    cite img {
+        height: 50px;
+        margin-right: 10px;
+        border-radius: 50%;
+        margin-top: 0px;
+        vertical-align: middle;
+    }
+
+    .footer-nav {
+        list-style: none;
+        float: none;
+    }
+
+    .social-links {
+        list-style: none;
+        float: none;
+        margin: 10px 0;
+    }
+
+    .footer-nav li,
+    .social-links li {
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+    .footer-nav li:last-child,
+    .social-links li:last-child {
+        margin-right: 0;
+    }
+
+    .plan-box, h3 {
+        text-align: center;
+    }
+
+}
+
+
+/*Small phones*/
+@media only screen and (max-width: 480px) {
+    section {
+        padding: 25px 0
+    }
+}
